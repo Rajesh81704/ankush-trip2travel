@@ -1,0 +1,24 @@
+{
+  "name": "ankush-trip2travel",
+  "version": "1.0.0",
+  "description": "Monorepo for TripToo Travels & Nature Vacation platform (Frontend, Backend, Admin Dashboard, Storage Microservice)",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:admin": "npm run dev --prefix admin",
+    "dev:storage": "npm run start --prefix storage-service",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:backend": "npm run build --prefix backend",
+    "build:admin": "npm run build --prefix admin"
+  },
+  "keywords": [
+    "travel-agency",
+    "monorepo",
+    "nextjs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Rajesh & Team",
+  "license": "ISC"
+}
