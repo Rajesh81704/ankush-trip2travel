@@ -22,7 +22,7 @@ export default function PackageBrochure({ packageData }: PackageBrochureProps) {
         <div>
           <div className="flex items-center gap-3">
             <img
-              src="/logo-v2.png"
+              src="/logo.png?v=2026"
               alt="TripToo Travels Logo"
               className="h-12 w-auto object-contain"
             />

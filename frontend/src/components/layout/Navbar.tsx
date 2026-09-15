@@ -70,7 +70,7 @@ export const Navbar = () => {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 shrink-0 py-1">
               <Image
-                src="/logo-v2.png"
+                src="/logo.png?v=2026"
                 alt="TripToo Travels"
                 width={280}
                 height={80}
@@ -215,7 +215,7 @@ export const Navbar = () => {
       >
         {/* Drawer Header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-slate-700">
-          <Image src="/logo-v2.png" alt="TripToo Travels" width={180} height={54} className="h-10 w-auto object-contain" />
+          <Image src="/logo.png?v=2026" alt="TripToo Travels" width={180} height={54} className="h-10 w-auto object-contain" />
           <button
             onClick={handleMenuClose}
             className="p-1.5 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-700 transition-colors"
