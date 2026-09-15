@@ -29,7 +29,7 @@ const fallbackTestimonials = [
     name: "Priya Sharma",
     location: "Mumbai, India",
     rating: 5,
-    text: "Book Itinerary transformed our family vacation into the most memorable experience ever. The personalized itinerary perfectly balanced adventure and relaxation. Absolutely outstanding service!",
+    text: "TripTooTravels transformed our family vacation into the most memorable experience ever. The personalized itinerary perfectly balanced adventure and relaxation. Absolutely outstanding service!",
     trip: "Kerala Backwaters",
   },
   {
@@ -50,7 +50,7 @@ const fallbackTestimonials = [
     name: "Rajesh Kumar",
     location: "Bangalore, India",
     rating: 5,
-    text: "Book Itinerary created a custom adventure that exceeded all expectations. The 24/7 support was incredibly helpful. We felt safe and cared for throughout the entire journey. Coming back soon!",
+    text: "TripTooTravels created a custom adventure that exceeded all expectations. The 24/7 support was incredibly helpful. We felt safe and cared for throughout the entire journey. Coming back soon!",
     trip: "Himalayan Adventure",
   },
   {
