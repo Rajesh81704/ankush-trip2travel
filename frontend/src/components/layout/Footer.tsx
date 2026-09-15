@@ -65,11 +65,10 @@ export const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-5">
             <div className="bg-white/95 backdrop-blur-sm rounded-xl px-3.5 py-2 inline-flex items-center justify-center shadow-md">
-              <Image
-                src="/logo.png?v=2026"
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logo.png"
                 alt="TripToo Travels"
-                width={240}
-                height={80}
                 className="h-12 lg:h-14 w-auto object-contain"
               />
             </div>

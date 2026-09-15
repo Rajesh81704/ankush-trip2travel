@@ -69,13 +69,11 @@ export const Navbar = () => {
 
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 shrink-0 py-1">
-              <Image
-                src="/logo.png?v=2026"
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logo.png"
                 alt="TripToo Travels"
-                width={280}
-                height={80}
                 className="h-12 sm:h-14 lg:h-16 w-auto object-contain transition-transform duration-200 hover:scale-105"
-                priority
               />
             </Link>
 
@@ -215,7 +213,8 @@ export const Navbar = () => {
       >
         {/* Drawer Header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-slate-700">
-          <Image src="/logo.png?v=2026" alt="TripToo Travels" width={180} height={54} className="h-10 w-auto object-contain" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.png" alt="TripToo Travels" className="h-10 w-auto object-contain" />
           <button
             onClick={handleMenuClose}
             className="p-1.5 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-700 transition-colors"
