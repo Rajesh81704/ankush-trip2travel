@@ -239,7 +239,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-[12px] text-gray-500">
-            © 2024 TripToo Travels. All rights reserved.
+            © 2026 TripToo Travels. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <span className="text-[11px] text-gray-600 uppercase tracking-widest">Payment Methods</span>
