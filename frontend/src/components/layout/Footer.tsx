@@ -66,10 +66,10 @@ export const Footer = () => {
           <div className="lg:col-span-2 space-y-5">
             <div className="bg-white/95 backdrop-blur-sm rounded-xl px-3.5 py-2 inline-flex items-center justify-center shadow-md">
               <Image
-                src="/logo.png"
+                src="/logo-v2.png"
                 alt="TripToo Travels"
-                width={200}
-                height={200}
+                width={240}
+                height={80}
                 className="h-12 lg:h-14 w-auto object-contain"
               />
             </div>
